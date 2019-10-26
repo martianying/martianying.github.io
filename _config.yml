@@ -1,4 +1,4 @@
 name: Ying Zhang, a day-dreamer
 markdown: kramdown
 
-
+permalink: /blog/:year/:month/:day/:title

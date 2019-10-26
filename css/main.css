@@ -2,16 +2,34 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul{
     font-family:'Times', 'Times', 'Times'; /*control the panel*/
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    border-bottom: 1px solid #d5d5d5; /*the ---- line between the last and the last but one line. */
+    
 }
-nav ul li, footer ul li {
+
+footer ul {
+    font-family:'Courier New', 'Courier New', 'Courier New'; /*control the panel*/
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    
+}
+
+nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
+footer ul li {
+    display: inline;
+    margin-right: 2px;
+}
+
 a {
     text-decoration: none;
     color: #999; 
@@ -21,8 +39,16 @@ a:hover {
 }
 h1 {
     font-size: 3em;
+    line-height: 0.4em;
     font-family:'Courier New', 'Courier New', 'Courier New';
 } /*font of the "hi there, I'm Ying. "  */
+
+h2{
+    font-family:'Times', 'Times', 'Times'; /*control the panel*/
+    font-size: 1.1em;
+    line-height: 0.4em;
+    color: #999;
+}
 p { /*the paragraph*/
     font-size: 1.1em;
     line-height: 1.4em;
@@ -30,7 +56,7 @@ p { /*the paragraph*/
     font-family:'Times', 'Times', 'Times';
 }
 footer {
-    border-top: 1px solid #d5d5d5; /*the ---- line between the last and the last but one line. */
+    
     font-size: .9em;
     font-family:'Courier New', 'Courier New', 'Courier New';
 }
