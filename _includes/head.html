@@ -12,4 +12,7 @@
         <!-- START OF RELEVANT PART -->
         <script async src="https://just-comments.com/w2.js"></script>
         <!-- END OF RELEVANT PART -->
+        {% if site.tags != "" %}
+        {% include collecttags.html %}
+        {% endif %}
       </head>

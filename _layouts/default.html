@@ -6,15 +6,25 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav> <!--nevigation part-->
+			<nav class='nav'>
+				<div class='nav-left' > <!--nevigation part-->
 	    		<ul>
 	        		<li><a href="/">HOME</a></li>
 		        	<li><a href="/about">about me</a></li>
 	        		<li><a href="/projects">projects</a></li>
 					<li><a href="/blog">blog</a></li>
 					<li><a href="/others">others</a></li>
-	    		</ul>
-			</nav>
+				</ul>
+				</div>
+					<div class='nav-right' > <!--nevigation part-->
+						<ul>
+								
+								
+								<li>Ying Zhang</li>	
+								
+						</ul>
+					</div>
+				</nav>
 			<div class="container">
 			<!--content part to be replaced-->
 			{{ content }}
@@ -22,10 +32,11 @@
 			</div><!-- /.container -->
 			<footer> <!--footer part-->
 	    		<ul>
-						<li><a href="https://www.instagram.com/marsvora/"><img src="/assets/images/instagram.svg" width="20" height="20"/></a></li>
+						<li><a href="mailto:veronicaplanck@icloud.com"><img src="/assets/images/mailto.png" width="20" height="19"/></a></li>		
 						<li><a href="https://github.com/martianying"><img src="/assets/images/github.svg" width="20" height="20"/></a></li>
+					    <li><a href="https://www.instagram.com/marsvora/"><img src="/assets/images/instagram.svg" width="20" height="20"/></a></li>
 						<li><a href="https://www.facebook.com/veronica.planck.1"><img src="/assets/images/facebook.svg" width="20" height="20"/></a></li>
-						<li><a href="mailto:veronicaplanck@icloud.com"><img src="/assets/images/mailto.png" width="20" height="19"/></a></li>	
+						
 				</ul>
 			</footer>
 		</body>
