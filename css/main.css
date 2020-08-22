@@ -78,7 +78,7 @@ h1 {
 /*short introduction in the main page. "  */
 p a {
     text-decoration: none;
-    color: #ff3300; 
+    color: rgba(0, 0, 0, 0.582); 
     transition: background-color .8s;
     font-family:'Courier'; 
     font-weight: normal;
